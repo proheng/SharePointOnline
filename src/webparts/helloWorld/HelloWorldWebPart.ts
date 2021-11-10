@@ -107,12 +107,6 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
               </a>
             </div>
           </div>
-          <div class="${ styles.row }">
-            <div class="${ styles.column }">
-                [X] <a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/connect-to-sharepoint" target="_blank">Connect your client-side web part to SharePoint</a>
-                [] <a href="https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/serve-your-web-part-in-a-sharepoint-page" target="_blank">Deploy your client-side web part to a SharePoint page (Hello World part 3)</a>
-            </div>
-          </div>
           <div id="spListContainer" />
         </div>
       </div>`;
